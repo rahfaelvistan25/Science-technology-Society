@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instructor's Guide & Manual: Historical Antecedents of Science and Technology | STS 101</title>
+  <meta name="description" content="Faculty teaching guide, suggested classroom flow, discussion facilitation notes, activity rubrics, and master answer keys for STS Module 1 Lesson 1.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Merriweather:ital,wght@0,400;0,700;1,300&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <style>
+    :root {
+      --primary: #92400e;
+      --primary-light: #d97706;
+      --primary-dark: #451a03;
+      --secondary: #0d9488;
+    }
+    .instructor-banner {
+      background: linear-gradient(135deg, #78350f 0%, #451a03 60%, #1e293b 100%);
+      color: #ffffff;
+      padding: 2.75rem 2.25rem;
+      border-radius: var(--radius-lg);
+      margin-bottom: 2.5rem;
+      box-shadow: var(--shadow-lg);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+    }
+    .teacher-pill {
+      background: #fef3c7;
+      color: #92400e;
+      font-weight: 700;
+      font-size: 0.8rem;
+      padding: 0.35rem 0.8rem;
+      border-radius: var(--radius-full);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .rubric-table th {
+      background: #fef3c7;
+      color: #92400e;
+    }
+    [data-theme="dark"] .rubric-table th {
+      background: #78350f;
+      color: #fde68a;
+    }
+    .key-badge {
+      display: inline-block;
+      background: #10b981;
+      color: #fff;
+      font-weight: 700;
+      padding: 0.2rem 0.6rem;
+      border-radius: var(--radius-sm);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Progress Bar -->
+  <div id="reading-progress-container">
+    <div id="reading-progress-bar"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="top-header">
+    <div class="brand-wrapper">
+      <button class="mobile-nav-toggle" id="mobile-menu-toggle" aria-label="Toggle navigation menu">☰</button>
+      <span class="brand-badge" style="background:linear-gradient(135deg, #d97706, #78350f);">FACULTY PORTAL</span>
+      <div>
+        <a href="#overview" class="brand-title">STS 101 • Instructor's Manual</a>
+        <span class="brand-sub">Science, Technology, and Society • Teaching & Facilitation Guide</span>
+      </div>
+    </div>
+    <div class="header-controls">
+      <a href="../index.html" class="badge-mode" style="text-decoration:none;" title="Switch to Student Lesson View">
+        <span>🎓</span> Switch to Student Lesson ↗
+      </a>
+      <button class="btn-icon" id="theme-toggle-btn" title="Toggle Dark/Light Mode">
+        <span id="theme-icon">🌙</span>
+      </button>
+      <button class="btn-icon" id="print-lesson-btn" title="Print Guide / Save PDF">
+        <span>🖨️</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Container -->
+  <div class="app-container">
+
+    <!-- Sidebar Navigation -->
+    <aside class="course-sidebar" aria-label="Instructor Manual Navigation">
+      <div class="sidebar-section-title">Teaching Guide Navigation</div>
+      <ul class="nav-links-list">
+        <li>
+          <a href="#overview" class="nav-item-link active">
+            <span class="nav-num">1</span>
+            <span>Course & Lesson Context</span>
+          </a>
+        </li>
+        <li>
+          <a href="#classroom-flow" class="nav-item-link">
+            <span class="nav-num">2</span>
+            <span>Classroom Flow (Timetable)</span>
+          </a>
+        </li>
+        <li>
+          <a href="#misconceptions" class="nav-item-link">
+            <span class="nav-num">3</span>
+            <span>Addressing Misconceptions</span>
+          </a>
+        </li>
+        <li>
+          <a href="#discussion-notes" class="nav-item-link">
+            <span class="nav-num">4</span>
+            <span>Discussion Facilitation</span>
+          </a>
+        </li>
+        <li>
+          <a href="#activity-guides" class="nav-item-link">
+            <span class="nav-num">5</span>
+            <span>Activity Guides & Rubrics</span>
+          </a>
+        </li>
+        <li>
+          <a href="#answer-key" class="nav-item-link">
+            <span class="nav-num">6</span>
+            <span>Master Assessment Answer Key</span>
+          </a>
+        </li>
+        <li>
+          <a href="#essay-rubrics" class="nav-item-link">
+            <span class="nav-num">7</span>
+            <span>Essay Evaluation Criteria</span>
+          </a>
+        </li>
+        <li>
+          <a href="#next-lesson-prep" class="nav-item-link">
+            <span class="nav-num">8</span>
+            <span>Lesson 2 Preparation</span>
+          </a>
+        </li>
+      </ul>
+
+      <div class="sidebar-section-title" style="margin-top:1.5rem;">Quick Switch</div>
+      <ul class="nav-links-list">
+        <li>
+          <a href="../index.html" class="nav-item-link" style="color:var(--secondary); font-weight:600;">
+            <span class="nav-num">↗</span>
+            <span>Student Lesson Website</span>
+          </a>
+        </li>
+      </ul>
+
+      <div class="sidebar-tools-box">
+        <div class="tools-box-title"><span>📋</span> Instructor Dashboard</div>
+        <p style="font-size:0.8rem; color:var(--text-muted); margin-bottom:0.5rem;">
+          Faculty Reference Only
+        </p>
+        <div style="font-size:0.75rem; color:var(--text-light); line-height:1.4;">
+          Contains lesson pacing, rubrics, and assessment keys.
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+      <!-- Hero Banner -->
+      <section class="instructor-banner" id="hero">
+        <div class="hero-meta-bar">
+          <span class="hero-chip" style="background:rgba(245, 158, 11, 0.25); border:1px solid #f59e0b;">INSTRUCTOR MANUAL</span>
+          <span class="hero-chip">MODULE 1 • LESSON 1</span>
+          <span class="hero-chip">COLLEGE LEVEL (MWF)</span>
+          <span class="hero-chip">⏱️ 60–90 MIN DURATION</span>
+        </div>
+        <h1 class="hero-title" style="color:#ffffff;">Instructor's Teaching Guide & Lesson Facilitation Manual</h1>
+        <p class="hero-description" style="color:#fde68a;">
+          Module 1 – Lesson 1: Introduction to the Historical Antecedents of Science and Technology. Complete lesson roadmap, pedagogical timing, discussion facilitation probes, group activity rubrics, and master evaluation keys.
+        </p>
+        <div class="hero-quick-actions">
+          <a href="../index.html" class="btn-hero" style="background:#ffffff; color:#78350f;"><span>📖</span> Open Student Lesson View</a>
+          <a href="#classroom-flow" class="btn-hero btn-hero-outline"><span>⏱️</span> View Class Timetable</a>
+          <a href="#answer-key" class="btn-hero btn-hero-outline"><span>🔑</span> Assessment Answer Key</a>
+        </div>
+      </section>
+
+      <!-- 1. Overview & Syllabus Mapping -->
+      <section class="teaching-section" id="overview">
+        <div class="section-badge-header">
+          <span class="section-badge"><span class="section-number">1</span> Section 1: Overview & Syllabus Mapping</span>
+          <span class="teacher-pill">Instructional Design</span>
+        </div>
+        <h2 class="section-heading">I. Pedagogical Objectives & Competency Mapping</h2>
+
+        <p class="lead-text">
+          Lesson 1 establishes the intellectual foundation for the entire Science, Technology, and Society (STS) curriculum. The objective is to dismantle the common student belief that science and technology are exclusively modern 21st-century phenomena born of microchips, smartphones, and NASA laboratories.
+        </p>
+
+        <div class="table-responsive">
+          <table class="academic-table rubric-table">
+            <thead>
+              <tr>
+                <th style="width: 30%;">Target Competency</th>
+                <th style="width: 40%;">Learning Evidence in Student Activity</th>
+                <th style="width: 30%;">Assessment Measurement</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>1. Define key STS terms</strong></td>
+                <td>Distinguishing science (systematic inquiry) from technology (practical application) and historical antecedents.</td>
+                <td>Activity 1 (Classifier), Quiz Items 1, 2, 3, Identification Items 1, 2.</td>
+              </tr>
+              <tr>
+                <td><strong>2. Historical origins & toolmaking</strong></td>
+                <td>Explaining how environmental survival drove early curiosity, Acheulean bifacial handaxes, and hearth fire control.</td>
+                <td>Quiz Item 4, Identification Item 3, Essay Question 2.</td>
+              </tr>
+              <tr>
+                <td><strong>3. Agricultural Revolution impact</strong></td>
+                <td>Articulating how the Neolithic transition from foraging to crop cultivation catalyzed settled cities and occupational division of labor.</td>
+                <td>Quiz Item 5, Identification Item 4, Discussion 1.</td>
+              </tr>
+              <tr>
+                <td><strong>4. Ancient Civilizations' Contributions</strong></td>
+                <td>Analyzing Mesopotamian base-60 math, Egyptian geometry, Greek natural philosophy, Chinese papermaking/compass/gunpowder, and Indian zero.</td>
+                <td>Quiz Items 6, 7, 8, 9, 10, Identification Items 5, 6, 7, 8, Activity 2 Group Presentations.</td>
+              </tr>
+              <tr>
+                <td><strong>5. The STS Feedback Triangle</strong></td>
+                <td>Demonstrating that science, technology, and society operate in a reciprocal loop where social problems drive inquiry and technology alters social life.</td>
+                <td>Quiz Items 11, 12, Essay Question 4, Discussion 2.</td>
+              </tr>
+              <tr>
+                <td><strong>6. Ethical Technology Governance</strong></td>
+                <td>Critically evaluating challenges: e-waste, privacy loss, digital divide, automation displacement, and AI integrity.</td>
+                <td>Quiz Items 13, 14, 15, Identification Items 9, 10, Essay Question 5.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- 2. Suggested Classroom Flow -->
+      <section class="teaching-section" id="classroom-flow">
+        <div class="section-badge-header">
+          <span class="section-badge"><span class="section-number">2</span> Section 2: Suggested Classroom Flow</span>
+          <span class="teacher-pill">60–90 Minute Session</span>
+        </div>
+        <h2 class="section-heading">II. Suggested Classroom Flow & Time Management</h2>
+
+        <p>This instructional schedule allocates time for a standard 60 to 90-minute college lecture/discussion session:</p>
+
+        <div class="table-responsive">
+          <table class="academic-table">
+            <thead>
+              <tr>
+                <th style="width: 15%;">Time</th>
+                <th style="width: 30%;">Teaching Activity</th>
+                <th style="width: 55%;">Instructor Guidance & Pedagogical Prompts</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>5 min</strong></td>
+                <td><strong>Opening Motivation</strong></td>
+                <td>
+                  <strong>Hook:</strong> Hold up a smartphone or point to a room light switch. Ask: <em>"Who invented this?"</em> Guide students to realize that thousands of unnamed ancestors contributed to the glass, metallurgy, mathematics, and electricity behind it.
+                </td>
+              </tr>
+              <tr>
+                <td><strong>10 min</strong></td>
+                <td><strong>Historical Antecedents</strong></td>
+                <td>
+                  Define <em>historical antecedents</em>. Trace the communication lineage: Egyptian courier runners ➔ Morse electric telegraph (1837) ➔ fixed-wire telephone ➔ modern digital texting. Emphasize that modern tech is never created independently.
+                </td>
+              </tr>
+              <tr>
+                <td><strong>15 min</strong></td>
+                <td><strong>Meaning of Science vs. Technology</strong></td>
+                <td>
+                  Walk through the 6-step scientific process using the Plant Sunlight experiment. Present the problem-solution comparison table. Highlight the electricity case study: <em>Science explains electricity; technology makes it useful.</em>
+                </td>
+              </tr>
+              <tr>
+                <td><strong>15 min</strong></td>
+                <td><strong>Origins: Stone Age & Agriculture</strong></td>
+                <td>
+                  Examine Acheulean bifaces (~700,000 BCE). Discuss the 5 benefits of fire control (cooking, warmth, protection, lighting, pyrotechnology). Contrast nomadic hunting with the Neolithic Agricultural Revolution.
+                </td>
+              </tr>
+              <tr>
+                <td><strong>15 min</strong></td>
+                <td><strong>Ancient Civilizations Matrix</strong></td>
+                <td>
+                  Survey the 5 civilizations using slides/visuals: Mesopotamia (cuneiform/wheel/base-60), Egypt (pyramids/geometry/papyrus), Greece (Thales/Pythagoras/Hippocrates/Archimedes/Aristotle), China (paper/compass/gunpowder/printing), India (zero/decimals/metallurgy).
+                </td>
+              </tr>
+              <tr>
+                <td><strong>10 min</strong></td>
+                <td><strong>The STS Feedback Loop</strong></td>
+                <td>
+                  Display the STS Cycle diagram. Walk through the medical diagnostic imaging example (cellular pathology research ➔ MRI scanner engineering ➔ hospital adoption ➔ healthcare access challenge).
+                </td>
+              </tr>
+              <tr>
+                <td><strong>10 min</strong></td>
+                <td><strong>Classroom Activities & Discussion</strong></td>
+                <td>
+                  Run Activity 1 (Classifier mini-game). Form 5 groups for Activity 2 (Historical Inventions presentation assignment). Lead Discussion 3 (Ancient Community Crisis simulation).
+                </td>
+              </tr>
+              <tr>
+                <td><strong>10 min</strong></td>
+                <td><strong>Assessment & Synthesis Wrap-Up</strong></td>
+                <td>
+                  Have students take the 15-question online quiz on their laptops/phones. Review common errors. Emphasize the Central Generalization and preview Lesson 2.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- 3. Addressing Misconceptions -->
+      <section class="teaching-section" id="misconceptions">
+        <div class="section-badge-header">
+          <span class="section-badge"><span class="section-number">3</span> Section 3: Student Misconceptions</span>
+          <span class="teacher-pill">Pedagogical Insights</span>
+        </div>
+        <h2 class="section-heading">III. Common Student Misconceptions & How to Correct Them</h2>
+
+        <div style="display:grid; gap:1.25rem;">
+          <div class="callout callout-amber" style="margin:0;">
+            <div class="callout-title amber"><span>⚠️</span> Misconception 1: "Technology equals electronics, software, and gadgets."</div>
+            <p style="margin:0; font-size:0.95rem;">
+              <strong>Correction Strategy:</strong> Remind students that technology is simply the practical application of human knowledge to solve problems. A sharpened flint handaxe, an irrigation ditch, a wooden plow, a clay pot, and a paper sheet are all monumental technological milestones in human history.
+            </p>
+          </div>
+
+          <div class="callout callout-amber" style="margin:0;">
+            <div class="callout-title amber"><span>⚠️</span> Misconception 2: "Science and technology are synonyms."</div>
+            <p style="margin:0; font-size:0.95rem;">
+              <strong>Correction Strategy:</strong> Illustrate with distinct verbs: Science <em>explains</em> and <em>discovers</em> (e.g. how gravity attracts mass, how bacteria reproduce); Technology <em>creates</em> and <em>applies</em> (e.g. building an elevator, manufacturing an antibiotic).
+            </p>
+          </div>
+
+          <div class="callout callout-amber" style="margin:0;">
+            <div class="callout-title amber"><span>⚠️</span> Misconception 3: "Technological progress is always purely beneficial."</div>
+            <p style="margin:0; font-size:0.95rem;">
+              <strong>Correction Strategy:</strong> Prompt students to evaluate the double-edged sword of every major invention: e.g., internal combustion engines enabled rapid travel but caused greenhouse emissions; smartphones enabled instant communication but fueled digital anxiety, surveillance, and e-waste.
+            </p>
+          </div>
+
+          <div class="callout callout-amber" style="margin:0;">
+            <div class="callout-title amber"><span>⚠️</span> Misconception 4: "Ancient civilizations had no real science."</div>
+            <p style="margin:0; font-size:0.95rem;">
+              <strong>Correction Strategy:</strong> Point out that the Egyptian surveying geometry, Greek hydrostatic principles (Archimedes), and Indian decimal mathematics were rigorous, systematic, empirical, and mathematically precise disciplines that underpin modern aerospace, navigation, and computer science.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. Discussion Notes -->
+      <section class="teaching-section" id="discussion-notes">
+        <div class="section-badge-header">
+          <span class="section-badge"><span class="section-number">4</span> Section 4: Discussion Facilitation</span>
+          <span class="teacher-pill">Socratic Prompts</span>
+        </div>
+        <h2 class="section-heading">IV. Teacher Facilitation Notes for Classroom Discussions</h2>
+
+        <!-- Discussion 1 Notes -->
+        <div class="discussion-prompt-box">
+          <h3 style="font-size:1.15rem; margin-bottom:0.75rem;">Discussion 1: Human Curiosity and Innovation</h3>
+          <p style="font-size:0.95rem;"><strong>Questions to Pose:</strong></p>
+          <ul style="margin-bottom:0.75rem;">
+            <li>1. Why do you think early humans started creating tools?</li>
+            <li>2. What role did observation play in the development of early science?</li>
+            <li>3. Why was the discovery and controlled use of fire important?</li>
+            <li>4. How did agriculture contribute to the development of civilizations?</li>
+            <li>5. What do you think would happen if humans stopped developing new technologies?</li>
+          </ul>
+
+          <div style="background:var(--bg-card); padding:1rem; border-radius:var(--radius-sm); border:1px solid var(--border-color);">
+            <strong style="color:var(--primary);">Instructor Facilitation Strategy:</strong>
+            <p style="font-size:0.9rem; margin:0.35rem 0;">
+              • <strong>For Q1 & Q2:</strong> Lead the discussion towards human physical vulnerability. Point out that hominins lacked the fangs of sabertooth cats, the armor of pangolins, or the speed of gazelles. Observation and toolmaking were our evolutionary adaptations.
+            </p>
+            <p style="font-size:0.9rem; margin:0.35rem 0;">
+              • <strong>For Q3 (Fire):</strong> Highlight the <em>expensive tissue hypothesis</em> (cooking softened meat/tubers, shortening digestive tracts and redirecting metabolic energy to encephalize the human brain).
+            </p>
+            <p style="font-size:0.9rem; margin:0;">
+              • <strong>For Q4 (Agriculture):</strong> Ask: <em>"If you had to hunt every single day to eat, could you attend college?"</em> Show that food surplus is the foundation of scholarship, arts, medicine, and governance.
+            </p>
+          </div>
+        </div>
+
+        <!-- Discussion 2 Notes -->
+        <div class="discussion-prompt-box">
+          <h3 style="font-size:1.15rem; margin-bottom:0.75rem;">Discussion 2: Science and Technology in Modern Society</h3>
+          <p style="font-size:0.95rem;"><strong>Questions to Pose:</strong></p>
+          <ul style="margin-bottom:0.75rem;">
+            <li>1. Can technology exist without science? Explain your answer.</li>
+            <li>2. How does science help engineers develop modern machines?</li>
+            <li>3. What modern technology has made the greatest difference in your daily life?</li>
+            <li>4. Does technology always make people's lives better? Why or why not?</li>
+            <li>5. What responsibilities should people have when using technology?</li>
+          </ul>
+
+          <div style="background:var(--bg-card); padding:1rem; border-radius:var(--radius-sm); border:1px solid var(--border-color);">
+            <strong style="color:var(--primary);">Instructor Facilitation Strategy:</strong>
+            <p style="font-size:0.9rem; margin:0.35rem 0;">
+              • <strong>For Q1:</strong> Introduce historical nuance. In the ancient world, craft technology (blacksmithing, brewing, pottery) was perfected by empirical trial and error long before chemistry and metallurgy were scientifically understood. However, modern high-tech (mRNA vaccines, lasers, quantum circuits) is impossible without fundamental scientific theory.
+            </p>
+            <p style="font-size:0.9rem; margin:0;">
+              • <strong>For Q4 & Q5:</strong> Challenge students on ethical accountability. Prompt them on algorithmic privacy leaks, planned obsolescence, and AI-generated disinformation.
+            </p>
+          </div>
+        </div>
+
+        <!-- Discussion 3 Notes -->
+        <div class="discussion-prompt-box">
+          <h3 style="font-size:1.15rem; margin-bottom:0.75rem;">Discussion 3: Critical Thinking – Ancient Community Simulation</h3>
+          <div style="background:var(--bg-card); padding:1rem; border-radius:var(--radius-sm); border:1px solid var(--border-color); font-size:0.9rem;">
+            <strong>Scenario:</strong> The community faces: (1) food transport across rivers; (2) drought from rainfall dependence; (3) slow foot messengers; (4) rapid food spoilage; (5) infection & waterborne diseases.
+          </div>
+          <p style="font-size:0.9rem; margin-top:0.75rem;">
+            <strong>Instructor Facilitator Tip:</strong> Split the class into 5 teams, assigning each team one problem. Ask them to invent a realistic ancient solution using only natural materials (clay, wood, stone, reeds, animals, salt, sun). Have them present a 2-minute pitch explaining how their invention solved the crisis and laid the antecedent for modern tech.
+          </p>
+        </div>
+      </section>
+
+      <!-- 5. Activity Guides & Rubrics -->
+      <section class="teaching-section" id="activity-guides">
+        <div class="section-badge-header">
+          <span class="section-badge"><span class="section-number">5</span> Section 5: Activities & Rubrics</span>
+          <span class="teacher-pill">Grading Criteria</span>
+        </div>
+        <h2 class="section-heading">V. Classroom Activities Grading Rubrics & Instructor Solutions</h2>
+
+        <!-- Activity 1 Solution Key -->
+        <div style="margin-bottom:2.5rem;">
+          <h3 style="font-size:1.25rem; font-weight:700; color:var(--text-main); margin-bottom:0.5rem;">
+            Activity 1 Master Key: Science or Technology? (10 Items)
+          </h3>
+          <div class="table-responsive">
+            <table class="academic-table rubric-table">
+              <thead>
+                <tr>
+                  <th style="width: 10%;">No.</th>
+                  <th style="width: 45%;">Scenario Item</th>
+                  <th style="width: 15%;">Classification</th>
+                  <th style="width: 30%;">Academic Rationale</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>1</td><td>Studying how gravity works</td><td><span class="key-badge">Science</span></td><td>Investigating natural physical fundamental laws.</td></tr>
+                <tr><td>2</td><td>Developing a smartphone</td><td><span class="key-badge" style="background:#3b82f6;">Technology</span></td><td>Engineering applied communication hardware/software.</td></tr>
+                <tr><td>3</td><td>Investigating how plants grow</td><td><span class="key-badge">Science</span></td><td>Botanical and biological photosynthetic inquiry.</td></tr>
+                <tr><td>4</td><td>Creating a medical imaging machine</td><td><span class="key-badge" style="background:#3b82f6;">Technology</span></td><td>Applying radiation physics to build diagnostic MRI/CT tools.</td></tr>
+                <tr><td>5</td><td>Studying the movement of planets</td><td><span class="key-badge">Science</span></td><td>Observational astronomy and orbital mechanics.</td></tr>
+                <tr><td>6</td><td>Developing an irrigation system</td><td><span class="key-badge" style="background:#3b82f6;">Technology</span></td><td>Hydraulic engineering for agriculture.</td></tr>
+                <tr><td>7</td><td>Researching how electricity works</td><td><span class="key-badge">Science</span></td><td>Electromagnetic inquiry into charge and atomic structure.</td></tr>
+                <tr><td>8</td><td>Designing an electric vehicle</td><td><span class="key-badge" style="background:#3b82f6;">Technology</span></td><td>Engineering application of batteries and drivetrains.</td></tr>
+                <tr><td>9</td><td>Studying the spread of diseases</td><td><span class="key-badge">Science</span></td><td>Epidemiology and viral pathology transmission inquiry.</td></tr>
+                <tr><td>10</td><td>Developing a vaccine</td><td><span class="key-badge" style="background:#8b5cf6;">Both</span></td><td>Combines immunology science with biotech manufacturing.</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Activity 2 Rubric -->
+        <div style="margin-bottom:2.5rem;">
+          <h3 style="font-size:1.25rem; font-weight:700; color:var(--text-main); margin-bottom:0.5rem;">
+            Activity 2: Group Research Presentation Rubric (25 Points Total)
+          </h3>
+          <p style="font-size:0.9rem; color:var(--text-muted);">
+            Group 1 (Fire) • Group 2 (Wheel) • Group 3 (Writing) • Group 4 (Irrigation) • Group 5 (Papermaking)
+          </p>
+
+          <div class="table-responsive">
+            <table class="academic-table rubric-table">
+              <thead>
+                <tr>
+                  <th>Criteria</th>
+                  <th>Exemplary (5 pts)</th>
+                  <th>Proficient (4 pts)</th>
+                  <th>Developing (3 pts)</th>
+                  <th>Beginning (1–2 pts)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Historical Background & Accuracy</strong></td>
+                  <td>Accurately details era, civilization, and original survival purpose with evidence.</td>
+                  <td>Accurate dates and civilizations, minor details missing.</td>
+                  <td>General narrative present but contains chronological inaccuracies.</td>
+                  <td>Inaccurate dates, misattributed civilization.</td>
+                </tr>
+                <tr>
+                  <td><strong>Lineage to Modern Tech</strong></td>
+                  <td>Clearly maps step-by-step technological evolution from ancient tool to modern application.</td>
+                  <td>Links ancient tool to modern tech with clear connection.</td>
+                  <td>Connection is vague or makes an abrupt jump without middle steps.</td>
+                  <td>Fails to demonstrate connection to modern technology.</td>
+                </tr>
+                <tr>
+                  <td><strong>Societal Impact Analysis</strong></td>
+                  <td>Deep evaluation of both positive impacts and societal challenges/transformations.</td>
+                  <td>Explains positive societal transformation clearly.</td>
+                  <td>Brief mention of societal effects without elaboration.</td>
+                  <td>Superficial or absent societal analysis.</td>
+                </tr>
+                <tr>
+                  <td><strong>Visual Aid Quality</strong></td>
+                  <td>Engaging, clean slides/diagrams with primary source images and citations.</td>
+                  <td>Clean visual aids illustrating the technology well.</td>
+                  <td>Text-heavy slides with few or low-quality visuals.</td>
+                  <td>No visual aids or illegible presentation.</td>
+                </tr>
+                <tr>
+                  <td><strong>Team Delivery & Timekeeping</strong></td>
+                  <td>All members participate equitably; finishes within 5–10 min window.</td>
+                  <td>Good team coordination; finishes within time limit.</td>
+                  <td>Unequal speaking time; slightly under or over time.</td>
+                  <td>One person dominates; severely violates time limits.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. Master Answer Key -->
+      <section class="teaching-section" id="answer-key">
+        <div class="section-badge-header">
+          <span class="section-badge"><span class="section-number">6</span> Section 6: Master Answer Key</span>
+          <span class="teacher-pill">Evaluations & Rationales</span>
+        </div>
+        <h2 class="section-heading">VI. Master Assessment Answer Key</h2>
+
+        <!-- MCQs -->
+        <h3 style="font-size:1.25rem; font-weight:700; margin-bottom:1rem;">Part A: Multiple Choice Questions (15 Items)</h3>
+        <div class="table-responsive">
+          <table class="academic-table rubric-table">
+            <thead>
+              <tr>
+                <th style="width: 8%;">No.</th>
+                <th style="width: 42%;">Question Text</th>
+                <th style="width: 10%;">Answer</th>
+                <th style="width: 40%;">Pedagogical Rationale & Distracter Analysis</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>What does the term historical antecedents refer to?</td>
+                <td><span class="key-badge">B</span></td>
+                <td>Events and developments from the past that influenced the present. Distracters A and C refer to future tech or current devices only.</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>What is the primary purpose of science?</td>
+                <td><span class="key-badge">C</span></td>
+                <td>To understand the natural world through observation and investigation. A, B, and D describe engineering and commercial technology.</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Which of the following best describes technology?</td>
+                <td><span class="key-badge">B</span></td>
+                <td>The application of knowledge and skills to solve practical problems. A and C describe history and astronomy.</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Which early technological development helped humans cook food and stay warm?</td>
+                <td><span class="key-badge">C</span></td>
+                <td>Fire. Provided warmth, light, predation defense, and nutrient absorption.</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>What was one of the most important contributions of the Agricultural Revolution?</td>
+                <td><span class="key-badge">B</span></td>
+                <td>Establishment of permanent settlements through food production, enabling cities and specialized occupations.</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Which civilization developed the cuneiform writing system?</td>
+                <td><span class="key-badge">B</span></td>
+                <td>Mesopotamia (Sumerians). Used wedge-shaped reeds on clay tablets.</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Which ancient civilization is famous for constructing the pyramids of Giza?</td>
+                <td><span class="key-badge">C</span></td>
+                <td>Egypt. Engineered along the Nile River basin using applied geometry.</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>Who is associated with the Pythagorean theorem?</td>
+                <td><span class="key-badge">B</span></td>
+                <td>Pythagoras. Formulated right-triangle mathematical proofs ($a^2 + b^2 = c^2$).</td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>Which civilization contributed significantly to papermaking, the compass, and gunpowder?</td>
+                <td><span class="key-badge">A</span></td>
+                <td>Ancient China. Recognized as the Four Great Inventions along with printing.</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>Which mathematical concept was an important contribution of ancient Indian mathematics?</td>
+                <td><span class="key-badge">B</span></td>
+                <td>Zero and the decimal place-value system (Hindu-Arabic numeral system).</td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>What is the relationship between science and technology?</td>
+                <td><span class="key-badge">B</span></td>
+                <td>Science develops knowledge, while technology applies that knowledge to practical problems.</td>
+              </tr>
+              <tr>
+                <td>12</td>
+                <td>What is an example of technology influencing society?</td>
+                <td><span class="key-badge">B</span></td>
+                <td>Smartphones allowing instant communication, altering daily commerce, learning, and interpersonal interaction.</td>
+              </tr>
+              <tr>
+                <td>13</td>
+                <td>What is the digital divide?</td>
+                <td><span class="key-badge">B</span></td>
+                <td>The unequal access to digital technologies, devices, and internet connectivity between socioeconomic groups.</td>
+              </tr>
+              <tr>
+                <td>14</td>
+                <td>Which of the following is an example of responsible technology use?</td>
+                <td><span class="key-badge">C</span></td>
+                <td>Protecting personal information and verifying online sources against misinformation.</td>
+              </tr>
+              <tr>
+                <td>15</td>
+                <td>Why is studying the history of science and technology important?</td>
+                <td><span class="key-badge">A</span></td>
+                <td>It helps us understand how past discoveries influenced modern developments and prevents repeating past errors.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Identification -->
+        <h3 style="font-size:1.25rem; font-weight:700; margin:2rem 0 1rem 0;">Part B: Identification Master Key (10 Items)</h3>
+        <div class="table-responsive">
+          <table class="academic-table rubric-table">
+            <thead>
+              <tr>
+                <th style="width: 8%;">No.</th>
+                <th style="width: 52%;">Prompt</th>
+                <th style="width: 25%;">Accepted Correct Term</th>
+                <th style="width: 15%;">Acceptable Variants</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>1</td><td>The systematic study of the natural world through observation and experimentation.</td><td><strong>Science</strong></td><td>Natural Science</td></tr>
+              <tr><td>2</td><td>The practical application of knowledge to solve problems.</td><td><strong>Technology</strong></td><td>Applied Technology</td></tr>
+              <tr><td>3</td><td>The early period characterized by the extensive use of stone tools.</td><td><strong>Stone Age</strong></td><td>Paleolithic, Neolithic</td></tr>
+              <tr><td>4</td><td>The transition from hunting and gathering to farming and domestication.</td><td><strong>Agricultural Revolution</strong></td><td>Neolithic Revolution</td></tr>
+              <tr><td>5</td><td>One of the earliest known writing systems developed by the Sumerians.</td><td><strong>Cuneiform</strong></td><td>Cuneiform Script</td></tr>
+              <tr><td>6</td><td>The ancient civilization located between the Tigris and Euphrates rivers.</td><td><strong>Mesopotamia</strong></td><td>Sumer, Babylonian</td></tr>
+              <tr><td>7</td><td>The Greek mathematician associated with the theorem involving right triangles.</td><td><strong>Pythagoras</strong></td><td>Pythagoras of Samos</td></tr>
+              <tr><td>8</td><td>The ancient civilization associated with zero and the decimal place-value system.</td><td><strong>Ancient India</strong></td><td>India, Indian Civilization</td></tr>
+              <tr><td>9</td><td>The process of creating new solutions, ideas, or products to address human needs.</td><td><strong>Innovation</strong></td><td>Technological Innovation</td></tr>
+              <tr><td>10</td><td>The unequal access to digital devices, internet connectivity, and digital resources.</td><td><strong>Digital Divide</strong></td><td>The Digital Divide</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- 7. Essay Rubrics -->
+      <section class="teaching-section" id="essay-rubrics">
+        <div class="section-badge-header">
+          <span class="section-badge"><span class="section-number">7</span> Section 7: Essay Rubrics</span>
+          <span class="teacher-pill">Grading Rubric</span>
+        </div>
+        <h2 class="section-heading">VII. Essay Evaluation Rubric & Sample Exemplars</h2>
+
+        <p>Instructions require students to write <strong>3 to 5 sentences</strong> for each question. Evaluate answers based on this 5-point scale:</p>
+
+        <div class="table-responsive">
+          <table class="academic-table rubric-table">
+            <thead>
+              <tr>
+                <th>Score</th>
+                <th>Standard</th>
+                <th>Performance Descriptors</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>5 / 5</strong></td>
+                <td><strong>Exemplary</strong></td>
+                <td>Directly answers the prompt, demonstrates clear historical understanding, provides concrete evidence/examples, and maintains coherent logical flow in 3–5 sentences.</td>
+              </tr>
+              <tr>
+                <td><strong>4 / 5</strong></td>
+                <td><strong>Proficient</strong></td>
+                <td>Answers the prompt accurately with correct concepts, but examples could be more detailed or connection could be slightly clearer.</td>
+              </tr>
+              <tr>
+                <td><strong>3 / 5</strong></td>
+                <td><strong>Satisfactory</strong></td>
+                <td>Basic understanding shown; general statements with minimal concrete historical evidence or slight repetition.</td>
+              </tr>
+              <tr>
+                <td><strong>1–2 / 5</strong></td>
+                <td><strong>Needs Work</strong></td>
+                <td>Fails to address core prompt, contains factual errors, or is off-topic.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div style="display:grid; gap:1.25rem; margin-top:1.5rem;">
+          <div style="background:var(--bg-card-alt); padding:1.25rem; border-radius:var(--radius-md); border-left:4px solid var(--primary);">
+            <strong>Question 1: Why are historical antecedents important in understanding modern science and technology?</strong>
+            <p style="font-size:0.9rem; color:var(--text-muted); margin:0.35rem 0 0 0;">
+              <strong>Model Exemplar:</strong> <em>"Studying historical antecedents is essential because modern technologies do not appear spontaneously; they are built upon centuries of cumulative human knowledge. For instance, modern computers evolved from ancient calculating devices like the abacus and 19th-century mechanical difference engines. By studying antecedents, we recognize how past societies innovated to solve survival needs, learn from historical failures, and better appreciate the intergenerational effort required for scientific progress."</em>
+            </p>
+          </div>
+
+          <div style="background:var(--bg-card-alt); padding:1.25rem; border-radius:var(--radius-md); border-left:4px solid var(--secondary);">
+            <strong>Question 4: Explain the relationship between science, technology, and society with one real-life example.</strong>
+            <p style="font-size:0.9rem; color:var(--text-muted); margin:0.35rem 0 0 0;">
+              <strong>Model Exemplar:</strong> <em>"Science, technology, and society exist in a continuous cyclical relationship where societal needs trigger scientific research, discoveries inspire technological applications, and technologies subsequently reshape society. A prime example is electricity: 19th-century physicists investigated electromagnetic principles (science), which engineers harnessed to build generators, motors, and lighting networks (technology). This transformed society into an electrified industrial economy, which in turn produced new challenges like grid reliability and demand for clean renewable energy."</em>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 8. Lesson 2 Preparation -->
+      <section class="teaching-section" id="next-lesson-prep">
+        <div class="section-badge-header">
+          <span class="section-badge"><span class="section-number">8</span> Section 8: Lesson 2 Preparation</span>
+          <span class="teacher-pill">Next Session</span>
+        </div>
+        <h2 class="section-heading">VIII. Instructor Preparation for Lesson 2: The Three Intellectual Revolutions</h2>
+
+        <p class="lead-text">
+          Lesson 2 shifts from ancient technological foundations to the epistemological transformations that redefined how humanity views the universe, biological species, and the human psyche:
+        </p>
+
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:1.25rem; margin-top:1.5rem;">
+          <div style="background:var(--bg-card-alt); padding:1.25rem; border-radius:var(--radius-md); border-top:4px solid #3b82f6;">
+            <strong>1. The Copernican Revolution</strong>
+            <p style="font-size:0.875rem; color:var(--text-muted); margin-top:0.35rem;">
+              • Shift from Ptolemaic Geocentrism to Heliocentrism.<br>
+              • Key figures: Copernicus, Galileo, Kepler, Newton.<br>
+              • Focus: The clash between empirical astronomical evidence and church orthodoxy.
+            </p>
+          </div>
+
+          <div style="background:var(--bg-card-alt); padding:1.25rem; border-radius:var(--radius-md); border-top:4px solid #10b981;">
+            <strong>2. The Darwinian Revolution</strong>
+            <p style="font-size:0.875rem; color:var(--text-muted); margin-top:0.35rem;">
+              • Shift from Creationism to Evolution by Natural Selection.<br>
+              • Key figures: Charles Darwin, Alfred Russel Wallace.<br>
+              • Focus: The Beagle voyage, adaptations, and philosophical disruption of human exceptionalism.
+            </p>
+          </div>
+
+          <div style="background:var(--bg-card-alt); padding:1.25rem; border-radius:var(--radius-md); border-top:4px solid #f59e0b;">
+            <strong>3. The Freudian Revolution</strong>
+            <p style="font-size:0.875rem; color:var(--text-muted); margin-top:0.35rem;">
+              • Shift from conscious rationality to the unconscious mind.<br>
+              • Key figures: Sigmund Freud.<br>
+              • Focus: Id, Ego, Superego, psychosexual development, psychoanalysis, and modern psychological therapy.
+            </p>
+          </div>
+        </div>
+
+        <div class="callout callout-teal" style="margin-top:1.5rem;">
+          <div class="callout-title teal"><span>💡</span> Bridge from Lesson 1 to Lesson 2</div>
+          <p style="margin:0; font-size:0.95rem;">
+            In Lesson 1, students learned how ancient civilizations used observation to build practical tools. In Lesson 2, students will discover what happens when scientific observation directly challenges deeply entrenched cultural and religious paradigms about humanity's place in the universe.
+          </p>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="footer-nav">
+      <a href="../index.html">Student Lesson Website</a>
+      <a href="#overview">Competency Matrix</a>
+      <a href="#classroom-flow">Classroom Flow</a>
+      <a href="#misconceptions">Misconceptions</a>
+      <a href="#discussion-notes">Discussion Notes</a>
+      <a href="#activity-guides">Activity Rubrics</a>
+      <a href="#answer-key">Answer Key</a>
+      <a href="#next-lesson-prep">Lesson 2 Prep</a>
+    </div>
+    <p>
+      Science, Technology, and Society (STS) • Faculty Instructor's Manual • College Level Courseware
+    </p>
+    <p style="font-size:0.8rem; color:var(--text-light); margin-top:0.5rem;">
+      Stored in separate <code>/teachers-guide/</code> folder for independent academic administration.
+    </p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="../js/app.js"></script>
+</body>
+</html>
